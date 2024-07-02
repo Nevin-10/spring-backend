@@ -11,7 +11,7 @@ import java.util.List;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://nevin-10.github.io/spring-frontend/")
 @RequestMapping("/blog")
 public class Rest {
 

@@ -11,6 +11,7 @@ import java.util.List;
 
 
 @RestController
+@CrossOrigin
 @RequestMapping("/blog")
 public class Rest {
 
@@ -19,7 +20,7 @@ public class Rest {
     //Constructor injection
     private BlogDAO blogDAO;
 
-    @Autowired
+    @Autowired //using AutoWired not beans
     public Rest(BlogDAO blogDAO) {
         this.blogDAO = blogDAO;
     }

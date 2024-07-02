@@ -11,7 +11,7 @@ import java.util.List;
 
 
 @RestController
-@CrossOrigin(origins = "https://nevin-10.github.io/spring-frontend/")
+@CrossOrigin(origins = "https://nevin-10.github.io")
 @RequestMapping("/blog")
 public class Rest {
 

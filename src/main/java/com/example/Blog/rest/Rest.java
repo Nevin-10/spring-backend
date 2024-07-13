@@ -11,7 +11,7 @@ import java.util.List;
 
 
 @RestController
-@CrossOrigin(origins = "https://nevin-10.github.io")
+@CrossOrigin(origins = "https://amused-manifestation-production.up.railway.app")
 @RequestMapping("/blog")
 public class Rest {
 
@@ -29,7 +29,7 @@ public class Rest {
     public String get() {
         return "Hello World";
     }
-
+    //Always think what POSTMAN needs with this API also what it needs
     @PostMapping("/create")
     //ResponseEntity is an object of http, return response to postman as an entity(object)
     public ResponseEntity<String> create(@RequestBody Blog blog) {//Getting Blog object from body

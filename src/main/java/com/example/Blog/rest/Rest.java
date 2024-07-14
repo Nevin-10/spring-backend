@@ -11,7 +11,6 @@ import java.util.List;
 
 
 @RestController
-@CrossOrigin(origins = "https://blogx.azurewebsites.net")
 @RequestMapping("/blog")
 public class Rest {
 
